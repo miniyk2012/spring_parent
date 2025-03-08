@@ -32,7 +32,9 @@
         <spring-boot.version>2.7.6</spring-boot.version>
     </properties>
 
+
     <dependencies>
+        <!--devtools热部署-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
