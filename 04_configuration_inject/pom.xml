@@ -8,10 +8,10 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>configuration_file</artifactId>
+  <artifactId>04_configuration_inject</artifactId>
   <packaging>jar</packaging>
 
-  <name>configuration_file</name>
+  <name>04_configuration_inject</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -20,14 +20,20 @@
 
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-web</artifactId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <!-- 会生成META-INF 元数据  用于提供idea自动提示配置文件的 -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-configuration-processor</artifactId>
+      <!-- 依赖不会传播 -->
+      <optional>true</optional>
     </dependency>
   </dependencies>
 

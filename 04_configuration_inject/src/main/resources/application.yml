@@ -1,0 +1,23 @@
+user:
+  username: "杨恺"
+  age: 20
+  birth-day: 2025-02-25
+  hobbies:
+    - 唱歌
+    - 跳舞
+  girl-friend: {19: "小红", 20: "小花"}
+  address:
+    id: 1
+    desc: "北京市海淀区"
+#  girl-friend:
+#    18: "小红"
+#    20: "小花"
+
+server:
+  port: 8001
+
+  servlet:
+    encoding:
+      charset: UTF-8
+
+debug: true
