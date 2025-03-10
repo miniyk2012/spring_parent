@@ -18,6 +18,8 @@
         <module>04_configuration_inject</module>
         <module>07_springboot_web</module>
         <module>08_springboot_web_rest</module>
+        <module>05_pringboot_logging</module>
+        <module>06_springboot_logging</module>
     </modules>
     <groupId>yangkai.com.springboot</groupId>
     <artifactId>spring_parent</artifactId>
